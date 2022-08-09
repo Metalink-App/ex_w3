@@ -27,11 +27,11 @@ defmodule Web3x.MixProject do
     [
       {:ex_doc, ">= 0.0.0", only: :dev},
       {:ethereumex, "~> 0.7.0"},
-      {:ex_keccak, "~> 0.2"},
-      {:ex_secp256k1, "~> 0.2.1"},
-      {:ex_abi, "~> 0.5.5"},
+      {:ex_keccak, "~> 0.4.0"},
+      {:ex_secp256k1, "~> 0.5.0"},
+      {:ex_abi, "~> 0.5.11"},
       {:dialyxir, "~> 1.0", only: [:dev], runtime: false},
-      {:jason, "~> 1.2"}
+      {:jason, "~> 1.3"}
     ]
   end
 
